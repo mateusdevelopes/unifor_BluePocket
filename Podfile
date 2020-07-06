@@ -12,5 +12,7 @@ target 'BluePocket' do
   pod 'Firebase/Firestore'
   pod 'MBProgressHUD'
   pod 'CodableFirebase'
+  pod 'Charts'
+  pod 'TinyConstraints'
 
 end

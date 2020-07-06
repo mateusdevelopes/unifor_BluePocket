@@ -11,7 +11,6 @@
 		525145002475A68C008712E7 /* AddNewRevenueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525144FF2475A68C008712E7 /* AddNewRevenueViewController.swift */; };
 		525145022475B477008712E7 /* AddNewExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525145012475B477008712E7 /* AddNewExpenseViewController.swift */; };
 		5251450424783BD7008712E7 /* AddTypeExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251450324783BD7008712E7 /* AddTypeExpenseViewController.swift */; };
-		5251450624784CAB008712E7 /* FTypeExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251450524784CAB008712E7 /* FTypeExpense.swift */; };
 		527D750A24696A1300D93D30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D750924696A1300D93D30 /* AppDelegate.swift */; };
 		527D750C24696A1300D93D30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D750B24696A1300D93D30 /* SceneDelegate.swift */; };
 		527D751124696A1300D93D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527D750F24696A1300D93D30 /* Main.storyboard */; };
@@ -19,7 +18,14 @@
 		527D751624696A1700D93D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D751524696A1700D93D30 /* Assets.xcassets */; };
 		527D751924696A1700D93D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 527D751724696A1700D93D30 /* LaunchScreen.storyboard */; };
 		527D752124696C4D00D93D30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 527D752024696C4D00D93D30 /* GoogleService-Info.plist */; };
+		5295899B249FF52C00709F75 /* FItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5295899A249FF52C00709F75 /* FItemModel.swift */; };
 		5299CD7E24794466003DFF5B /* SnapshotExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5299CD7D24794466003DFF5B /* SnapshotExtensions.swift */; };
+		52C073ED24AB60D200D9F1B0 /* ExpenseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C073EC24AB60D200D9F1B0 /* ExpenseCell.swift */; };
+		52C073EF24AB652B00D9F1B0 /* FTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C073EE24AB652B00D9F1B0 /* FTypeModel.swift */; };
+		52C073F124ABBFC100D9F1B0 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C073F024ABBFC100D9F1B0 /* GraphViewController.swift */; };
+		52C073F324ACAFA600D9F1B0 /* RecoveryPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C073F224ACAFA600D9F1B0 /* RecoveryPasswordViewController.swift */; };
+		52C073F524ACB9AA00D9F1B0 /* FinancyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C073F424ACB9AA00D9F1B0 /* FinancyViewController.swift */; };
+		52E58CD5249FF908006B62F2 /* RevenueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E58CD4249FF908006B62F2 /* RevenueCell.swift */; };
 		52F92E002473C0690062A563 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F92DFF2473C0690062A563 /* LoginViewController.swift */; };
 		52F92E042473C08D0062A563 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F92E032473C08D0062A563 /* HomeViewController.swift */; };
 		52F92E062473C0A80062A563 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52F92E052473C0A80062A563 /* ViewController.swift */; };
@@ -38,7 +44,6 @@
 		525144FF2475A68C008712E7 /* AddNewRevenueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewRevenueViewController.swift; sourceTree = "<group>"; };
 		525145012475B477008712E7 /* AddNewExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewExpenseViewController.swift; sourceTree = "<group>"; };
 		5251450324783BD7008712E7 /* AddTypeExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTypeExpenseViewController.swift; sourceTree = "<group>"; };
-		5251450524784CAB008712E7 /* FTypeExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTypeExpense.swift; sourceTree = "<group>"; };
 		527D750624696A1300D93D30 /* BluePocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BluePocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527D750924696A1300D93D30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		527D750B24696A1300D93D30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,7 +53,14 @@
 		527D751824696A1700D93D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		527D751A24696A1700D93D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		527D752024696C4D00D93D30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5295899A249FF52C00709F75 /* FItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FItemModel.swift; sourceTree = "<group>"; };
 		5299CD7D24794466003DFF5B /* SnapshotExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotExtensions.swift; sourceTree = "<group>"; };
+		52C073EC24AB60D200D9F1B0 /* ExpenseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseCell.swift; sourceTree = "<group>"; };
+		52C073EE24AB652B00D9F1B0 /* FTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTypeModel.swift; sourceTree = "<group>"; };
+		52C073F024ABBFC100D9F1B0 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		52C073F224ACAFA600D9F1B0 /* RecoveryPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryPasswordViewController.swift; sourceTree = "<group>"; };
+		52C073F424ACB9AA00D9F1B0 /* FinancyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancyViewController.swift; sourceTree = "<group>"; };
+		52E58CD4249FF908006B62F2 /* RevenueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevenueCell.swift; sourceTree = "<group>"; };
 		52F92DFF2473C0690062A563 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		52F92E032473C08D0062A563 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		52F92E052473C0A80062A563 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,7 +109,8 @@
 		5251450724784CCC008712E7 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				5251450524784CAB008712E7 /* FTypeExpense.swift */,
+				5295899A249FF52C00709F75 /* FItemModel.swift */,
+				52C073EE24AB652B00D9F1B0 /* FTypeModel.swift */,
 			);
 			path = models;
 			sourceTree = "<group>";
@@ -150,6 +163,7 @@
 		52D473452472BE1900098250 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				52E58CD3249FF8C2006B62F2 /* TableViewCells */,
 				525144FE2475A648008712E7 /* newItemsViewControllers */,
 				52F92E19247543930062A563 /* tabsViewControllers */,
 				52F92DFF2473C0690062A563 /* LoginViewController.swift */,
@@ -158,8 +172,20 @@
 				52F92E072473CAF90062A563 /* SignUpViewController.swift */,
 				525144FC2475907A008712E7 /* AddTypeRevenueViewController.swift */,
 				5251450324783BD7008712E7 /* AddTypeExpenseViewController.swift */,
+				52C073F024ABBFC100D9F1B0 /* GraphViewController.swift */,
+				52C073F224ACAFA600D9F1B0 /* RecoveryPasswordViewController.swift */,
+				52C073F424ACB9AA00D9F1B0 /* FinancyViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		52E58CD3249FF8C2006B62F2 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				52E58CD4249FF908006B62F2 /* RevenueCell.swift */,
+				52C073EC24AB60D200D9F1B0 /* ExpenseCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		52F92E092473D01D0062A563 /* utils */ = {
@@ -315,14 +341,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52C073EF24AB652B00D9F1B0 /* FTypeModel.swift in Sources */,
 				52F92E162475428F0062A563 /* ExpenseViewController.swift in Sources */,
 				52F92E002473C0690062A563 /* LoginViewController.swift in Sources */,
 				525145002475A68C008712E7 /* AddNewRevenueViewController.swift in Sources */,
+				5295899B249FF52C00709F75 /* FItemModel.swift in Sources */,
+				52C073F524ACB9AA00D9F1B0 /* FinancyViewController.swift in Sources */,
+				52C073ED24AB60D200D9F1B0 /* ExpenseCell.swift in Sources */,
 				52F92E082473CAF90062A563 /* SignUpViewController.swift in Sources */,
 				527D751424696A1300D93D30 /* BluePocket.xcdatamodeld in Sources */,
 				525145022475B477008712E7 /* AddNewExpenseViewController.swift in Sources */,
 				527D750A24696A1300D93D30 /* AppDelegate.swift in Sources */,
 				5299CD7E24794466003DFF5B /* SnapshotExtensions.swift in Sources */,
+				52C073F324ACAFA600D9F1B0 /* RecoveryPasswordViewController.swift in Sources */,
 				527D750C24696A1300D93D30 /* SceneDelegate.swift in Sources */,
 				525144FD2475907A008712E7 /* AddTypeRevenueViewController.swift in Sources */,
 				52F92E062473C0A80062A563 /* ViewController.swift in Sources */,
@@ -331,8 +362,9 @@
 				52F92E14247542640062A563 /* RevenueViewController.swift in Sources */,
 				52F92E042473C08D0062A563 /* HomeViewController.swift in Sources */,
 				52F92E18247543800062A563 /* PocketViewController.swift in Sources */,
+				52C073F124ABBFC100D9F1B0 /* GraphViewController.swift in Sources */,
 				52F92E0B2473D0530062A563 /* Constants.swift in Sources */,
-				5251450624784CAB008712E7 /* FTypeExpense.swift in Sources */,
+				52E58CD5249FF908006B62F2 /* RevenueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
